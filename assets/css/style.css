@@ -806,14 +806,14 @@ Features
   background-color: #f8f9f9;
 }
 .title-h2 {
-  font-size: 45px;
+  font-size: 30px;
   color: #07324f;
-  line-height: 46px;
+  line-height: 36px;
   margin-bottom: 20px;
   font-weight: 700;
 }
 .features-text{
-  padding-top: 80px;
+  padding-top: 10px;
 }
 .features-text span {
   color: #171f3c;
@@ -907,6 +907,65 @@ Footer
 
 
 
+
+.newsletter-inner {
+  border-radius: 8px;
+  margin-bottom: 60px;
+  padding: 100px 60px 80px 60px;
+      box-shadow: 0 8px 28px 2px rgba(61, 61, 61, .12);
+      background-color: #2e367d;
+}
+.newsletter-inner .form-control{
+  width: 70%;
+  border-radius: 8px;
+  height: 43px;
+    float: left;
+}
+.subscribe-mail {
+  position: relative;
+  top:20px;
+}
+.newsletter-inner  .btn-subscribe:hover,
+.newsletter-inner  .btn-subscribe:focus{
+background-color:  #6FC7D9;
+}
+.newsletter-inner  .btn-subscribe{
+color: #fff;
+margin-left: 10px;
+}
+.newsletter-inner p{
+  color: #fff;
+}
+.newsletter-inner h2{
+  color:#fff;
+  font-size: 24px;
+}
+.subscribe-form{
+  margin-top: 25px;
+}
+
+
+.footer-top{
+  padding: 30px 0 40px;
+}
+
+.footer-bottom{
+ 
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0px auto;
+  padding: 0px;
+   color: #2e367da1;
+  font-size: 14px;
+}
+
+
 footer p.error-message {
   color: #e10438;
   margin-top:5px;
@@ -924,7 +983,7 @@ footer p.sucess-message {
 
 }
 #scrollUp{
-    background:#1e266d;
+  background: #6FC7D9;
   border-radius: 8px;
   bottom: 30px;
   color: #ffffff;
@@ -956,41 +1015,194 @@ footer p.sucess-message {
   line-height: 28px;
       color: #91a3bb;
 }
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #1bb1dc;
+.medium-avtar{
   color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 80px;
+  width: 90px;
+    border-radius: 100%;
+    height: 90px;
+}
+ .medium-avtar i{
+  opacity: 0.7;
+ }
+.subscribe-form .form-control {
+ outline: none;
+ float:left;
+ height: 45px;
+ width: 89%;
+ color:#fff;
+ border-radius: 0;
+ -moz-border-radius: 0;
+ -webkit-border-radius: 0;
+ padding:0 15px 0 15px;
+ box-shadow: none;
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+ transition: all .3s;
+ background-color: rgba(255,255,255,1);
+ border:none;
+}
+.subscribe-form .btn-subscribe{
+  position: relative;
+  margin-top: 15px;
+  height: 45px;
+  width:100%;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  padding:0 15px 0 15px;
+  color:#fff;
+  background: #d75c93;
+}
+.btn-subscribe:hover,.btn-subscribe:focus, .btn-subscribe:active{
+  background: #eb7fb0;
+  color:#fff;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+  background-color: #0a98c0;
+}
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+.social-network a.icoMedium:hover {
+  background-color: #00ab6c;
+}
+.social-network a.icoQuora:hover {
+  background-color: #e03409;
+}
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoInstagram:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoMedium:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
 }
 
-#footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+.social-circle li i {
+  margin: 0;
+  line-height: 60px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
   color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
-@media (max-width: 574px) {
-  #footer .footer-top .social-links a {
-    margin-bottom: 25px;
+.social-circle a {
+  background-color: #ccd8ea;
+}
+
+@media screen and (max-width: 500px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
   }
 }
+@media screen and (max-width: 450px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
 
-#footer .footer-top h4 {
-  font-size: 14px;
-  font-weight: bold;
-  color: #413e66;
-  text-transform: uppercase;
-  position: relative;
-  padding-bottom: 10px;
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+  }
 }
+@media screen and (max-width: 350px) {
+  ul.social-network li {
+    display: inline;
+    margin: 0 2px;
+  }
 
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+  }
 }
