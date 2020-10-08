@@ -130,11 +130,22 @@
   .mobile-login .col-lg-5{
       height: 70vh;
   }
+  form{
+    transform: rotate(180deg);
+    margin-left: -110px;
+    margin-top: -20px;
+    }
+    .fa{
+    transform: rotate(270deg);
+    }
   }
   
+  
   @media only screen and (max-width: 767px) {
-  
-  
+
+      form{
+        margin-left: -120px;
+      }  
       .icon-block{
           margin-bottom: 30px;
       }
