@@ -128,7 +128,7 @@ hr.hr {
   color: #222;
 }
 
-.warpper {
+.wrapper { /* Changed spelling from "warpper" */
   width: 100%;
   height: 100%;
 }
@@ -394,41 +394,48 @@ Navigation
 }
 a.navbar-brand {
   font-size: 18px;
-  color:#1e266d;
+  color:#ffffff; /* Brand Logo on left of header */
+  /* color:#171f3c; -- Original */
   font-weight: 400;
 }
 .navbar-header .navbar {
   padding: 0;
+  background-color: #171f3c; /* Added this line to change bg color of non-sticky menu */
 }
-img.logo-stikcy,
+
+img.logo-sticky, /* changed spelling from "stikcy" */
 .navbar-header .navbar.sticky img.logo{
   display: none;
 }
 
-.navbar-header .navbar.sticky img.logo-stikcy{
+.navbar-header .navbar.sticky img.logo-sticky{ /* changed spelling from "stikcy" */
   display: block;
 }
 .navbar-header .navbar.sticky li a, .navbar-header .navbar.sticky .search-box-btn{
-  color:#171f3c;  
+  color:#fff; /* Nav/Menu items in sticky header */  
+  /* color:#07324f ; -- Original? */
 }
 
 .navbar-header .navbar.sticky{
-  background-color: #ffffff;
+  /* background-color: #ffffff; --Original */
+  background-color: #171f3c; /* Background color of sticky header */
   box-shadow: 0 8px 28px 2px rgba(61, 61, 61, .12);   
 }
 .navbar-header .navbar-brand.white-logo span{
  color:#fff; 
 }
 .navbar-header .navbar.sticky .navbar-brand span{
-      color: #171f3c;
-      
-    }
+  color: #fff; /* Color of brand in left side of sticky header */
+  /* color: #171f3c; -- Original*/
+}
 .navbar-header .navbar-nav li a {
-  color: #1e266d;
-  font-size: 18px;
-  padding: 25px 20px !important;
+  color: #fff; /* Nav Items in static header */
+  /* color: #1e266d; -- Original */
+  font-size: 16px;
+  padding: 20px 20px !important;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 10px;
+  ;
 }
 .navbar-header  .white-navbar li a {
 color:#fff;
